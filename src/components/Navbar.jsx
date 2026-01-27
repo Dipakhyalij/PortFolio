@@ -16,7 +16,7 @@ const Navbar = () => {
       <a href="#" className='text-3xl font-bold text-white'>
         Dipak
         <span className='text-purple'>Hyalij</span>
-        <div className='w-4 h-4 bg-purple  rounded-full'></div>
+       
       </a>
     </div>
     <div className='hidden md:flex space-x-10'>
@@ -35,6 +35,11 @@ const Navbar = () => {
 
       <a href="#skills" className='relative text-white/80 transition duration-300 hover:text-purple group'>
         <span>Skills</span>
+        <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
+      </a>
+
+            <a href="#certification" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+        <span>certification</span>
         <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
       </a>
 
@@ -87,6 +92,13 @@ const Navbar = () => {
         <span>Skills</span>
         
       </a>
+
+       <a onClick={()=>setShowMenu(!showMenu)}  href="#certification" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+        <span>certification</span>
+        
+      </a>
+
+      
 
       <a onClick={()=>setShowMenu(!showMenu)}  href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
         <span>Projects</span>

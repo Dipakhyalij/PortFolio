@@ -1,48 +1,11 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg  from '../assets/profile.avif';
+
+
+import projectImg2  from '../assets/project2.avif';
 import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
 
-
-import cert1 from "../assets/cert1.jpg";
-import cert2 from "../assets/cert2.jpg";
-import cert3 from "../assets/cert3.jpg";
-import cert4 from "../assets/cert4.jpg";
-import cert5 from "../assets/cert5.jpg";
-import cert6 from "../assets/cert6.jpg";
-export const certifications = [
-  {
-    id: 1,
-    title: "Genrative AI Certificate ",
-    image: cert1,
-  },
-  {
-    id: 2,
-    title: "Cloud Computing Certificate",
-    image: cert2,
-  },
-  {
-    id: 3,
-    title: "AWS Certificate",
-    image: cert3,
-  },
-    {
-    id: 4,
-    title: "mastering React Certificate ",
-    image: cert4,
-  },
-  {
-    id: 5,
-    title: "Complete Backend",
-    image: cert5,
-  },
-  {
-    id: 6,
-    title: "React And Redux Certificate",
-    image: cert6,
-  },
-];
 
 export const assets = {
     profileImg,
@@ -114,7 +77,7 @@ export const skills = [
 
 
 export const projects = [
-   {
+  {
     title: "Online Food Delivery System ",
     description: "A full-featured online food delevery with add  dishes in cart,track order, user authentication, and payment processing. with admin panel",
     image: projectImg1,
