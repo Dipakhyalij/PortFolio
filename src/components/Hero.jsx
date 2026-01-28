@@ -24,7 +24,7 @@ const Hero = () => {
   <p className='text-lg text-gray-300 mb-8'> I create stunning web experiences with modern technologies and innovative design. </p>
   
   <div className='flex space-x-4'>
-    <a href="../assets/DIPAK`S_RESUME.pdf" download className=' px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duratio-300'> Download Resume</a>
+    <a href="../public/DIPAK`S_RESUME.pdf" download className=' px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duratio-300'> Download Resume</a>
     <a href="#contact"   className="px-6 py-3 border-2 border-purple rounded-lg font-medium hover:bg-purple/20 transition decoration-purple-300"
 >Contact Me</a>
   </div>
