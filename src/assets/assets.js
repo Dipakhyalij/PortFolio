@@ -1,6 +1,7 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 
 import profileImg  from '../assets/profile.avif';
+
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.avif';
 
