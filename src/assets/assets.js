@@ -4,16 +4,16 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTo
 import profileImg from "./profile.avif";
 
 
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
+import projectImg1 from "./project1.avif";
+import projectImg2 from "./project2.avif";
 
+import cert1 from "./cert1.jpg";
+import cert2 from "./cert2.jpg";
+import cert3 from "./cert3.jpg";
+import cert4 from "./cert4.jpg";
+import cert5 from "./cert5.jpg";
+import cert6 from "./cert6.jpg";
 
-import cert1 from "../assets/cert1.jpg";
-import cert2 from "../assets/cert2.jpg";
-import cert3 from "../assets/cert3.jpg";
-import cert4 from "../assets/cert4.jpg";
-import cert5 from "../assets/cert5.jpg";
-import cert6 from "../assets/cert6.jpg";
 export const certifications = [
   {
     id: 1,
