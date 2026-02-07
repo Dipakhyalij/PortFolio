@@ -6,6 +6,7 @@ import profileImg from "./profile.avif";
 
 import projectImg1 from "./project1.avif";
 import projectImg2 from "./project2.avif";
+import projectImg3 from "./project3.avif";
 
 import cert1 from "./cert1.jpg";
 import cert2 from "./cert2.jpg";
@@ -133,6 +134,15 @@ export const projects = [
     tech: ["ReactJS", "Tailwind CSS", "JavaScript (ES6+)","vite"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "#",
+    code: "#",
+  },
+  {
+    title: "Weather App",
+    description: "A responsive weather application that displays current weather conditions and forecasts for any location.",
+    image: projectImg3,
+    tech: ["ReactJS", "CSS", "JavaScript (ES6+)","vite"],
+    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    demo: "https://weather-app-bydipak.netlify.app/",
     code: "#",
   },
 ];
