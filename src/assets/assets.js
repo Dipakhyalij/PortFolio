@@ -143,7 +143,7 @@ export const projects = [
     tech: ["ReactJS", "CSS", "JavaScript (ES6+)","vite"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "https://weather-app-bydipak.netlify.app/",
-    code: "#",
+    code: "https://github.com/Dipakhyalij/Weather-App",
   },
 ];
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion'
+import {motion} from 'framer-motion'
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa'
 import { FaPhone } from 'react-icons/fa6'
 import emailjs from '@emailjs/browser'
@@ -37,8 +37,7 @@ const Contact = () => {
       transition={{ duration: 0.1, ease: 'easeOut' }}
       viewport={{ once: false, amount: 0.2 }}
       id="contact"
-      className="py-20 bg-dark-200"
-    >
+      className="py-20 bg-dark-200">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-4">
           Get In <span className="text-purple">Touch</span>
