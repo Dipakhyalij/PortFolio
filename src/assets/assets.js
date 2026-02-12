@@ -137,7 +137,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Weather App",
+    title: "LeetCode Metric Dashboard",
     description: "A responsive React-based web application that fetches and visualizes a user’s LeetCode statistics using their username. It displays problem-solving progress, difficulty-wise breakdown, rankings, and performance metrics through an interactive dashboard, helping users track and analyze their coding growth in real time.",
     image: projectImg4,
     tech: ["ReactJS", "CSS","vite","API"],
