@@ -7,7 +7,7 @@ import profileImg from "./profile.avif";
 import projectImg1 from "./project1.avif";
 import projectImg2 from "./project2.avif";
 import projectImg3 from "./project3.avif";
-
+import projectImg4 from "./project4.avif";
 import cert1 from "./cert1.jpg";
 import cert2 from "./cert2.jpg";
 import cert3 from "./cert3.jpg";
@@ -138,12 +138,21 @@ export const projects = [
   },
   {
     title: "Weather App",
+    description: "A responsive React-based web application that fetches and visualizes a user’s LeetCode statistics using their username. It displays problem-solving progress, difficulty-wise breakdown, rankings, and performance metrics through an interactive dashboard, helping users track and analyze their coding growth in real time.",
+    image: projectImg4,
+    tech: ["ReactJS", "CSS","vite","API"],
+    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Weather App",
     description: "A responsive weather application that displays current weather conditions and forecasts for any location.",
     image: projectImg3,
     tech: ["ReactJS", "CSS", "JavaScript (ES6+)","vite"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "https://weather-app-bydipak.netlify.app/",
-    code: "https://github.com/Dipakhyalij/Weather-App",
+    demo: "#",
+    code: "#",
   },
 ];
 
